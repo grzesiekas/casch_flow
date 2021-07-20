@@ -1,0 +1,160 @@
+#logo{
+
+    size: auto;
+    position: relative;
+    left: 450px;
+    width:700px;
+    height: 200px;
+    margin: 20px auto;
+
+}
+
+#menu{
+    text-align: center;
+    border-bottom: 2px solid olive;
+
+}
+#menu a{
+    height: 50px;
+    width: 50px;
+    background: teal;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+
+
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    font: bold 3.2em/80px "Helvetica Neue", "Bodoni MT Black", Helvetica, Gadugi, sans-serif;
+
+
+    background: -webkit-linear-gradient(top, rosybrown, #11610d);
+    background: -moz-linear-gradient(top, rosybrown, #11610d);
+    background: -o-linear-gradient(top, rosybrown, #11610d);
+    background: -ms-linear-gradient(top, rosybrown, #11610d);
+    background: linear-gradient(top, rosybrown, #11610d);
+
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    box-shadow: 0 8px 0 #5AE6E8;
+
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+
+a.button:hover {
+    background: #5AE6E8;
+    background: -webkit-linear-gradient(top, #11610d, #5AE6E8);
+    background: -moz-linear-gradient(top, #11610d, #5AE6E8);
+    background: -o-linear-gradient(top, #11610d, #5AE6E8);
+    background: -ms-linear-gradient(top, #11610d, #5AE6E8);
+    background: linear-gradient(top, #11610d, #5AE6E8);
+}
+
+#menu a:hover {
+    color: red;
+
+}
+
+
+#content{
+   float: left;
+
+    width: 500px;
+    min-height: 8px;
+}
+
+#sumy{
+    float: left;
+    padding: 20px;
+    width: 500px;
+
+}
+
+
+
+#ze {
+    border: 5px groove black;
+    font: bold 3.2em/90px "Helvetica Neue", "Bodoni MT Black", Helvetica, Gadugi, sans-serif;
+}
+
+
+#przych{
+    border: 5px groove black;
+    font: bold 3.2em/90px "Helvetica Neue", "Bodoni MT Black", Helvetica, Gadugi, sans-serif;
+
+}
+#password-field{
+    left: 10px;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#fielde {
+    left: 10px;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#fel{
+    left: 10px;
+    width: 200px;
+    padding: 5px;
+    float: right;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#aktywa {
+
+
+    color: rebeccapurple;
+    font-size:30px;
+
+
+}
+
+
+#feli{
+    width:133px;
+    BORDER-TOP-WIDTH: 1px;
+    PADDING-LEFT: 5px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 8pt;
+    BORDER-BOTTOM-WIDTH: 1px;
+    MARGIN-BOTTOM: 15px;
+    COLOR: #000000;
+    PADDING-TOP: 15px;
+    HEIGHT: 10px;
+    BORDER-RIGHT-WIDTH: 1px;
+    border-radius: 5px;
+}
+
+#felii{
+    width:133px;
+    BORDER-TOP-WIDTH: 1px;
+    PADDING-LEFT: 5px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: 8pt;
+    BORDER-BOTTOM-WIDTH: 1px;
+    MARGIN-BOTTOM: 15px;
+    COLOR: #000000;
+    PADDING-TOP: 15px;
+    HEIGHT: 10px;
+    BORDER-RIGHT-WIDTH: 1px;
+    border-radius: 5px;
+
+}
+
+
+
+
+#centruj {
+
+    margin:180px;
+}

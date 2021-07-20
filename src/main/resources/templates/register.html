@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>caschflow</title>
+    <link rel="stylesheet" href="/log.css">
+    <link rel="stylesheet" href="/main.css"/>
+        <link rel="stylesheet" href="/commons.css"/>
+    <script src="/casch.js"></script>
+</head>
+<body bgcolor="#a9a9a9">
+
+<img src="/ff.png" alt="Logo" id="logo">
+<div class="content", id="content">
+    <form id="login-form" method="post" onsubmit="return validate()">
+        <input type="text" placeholder="Nazwa gracza" th:field="'*{user.user'" id="Nazwagracza-field" name="Nazwagracza">
+
+    </form><a href="/rejestracja" type="submit" >Rejestracja</a>
+
+</div>
+</body>
+</html>
+
+

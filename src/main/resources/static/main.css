@@ -1,0 +1,47 @@
+.aukcje {
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: border 0.25s;
+    margin: 10px;
+    padding: 10px;
+}
+
+.aukcje:hover {
+    border: 1px solid red;
+}
+
+.aukcje-title {
+    font-size: 30px;
+}
+
+.aukcje-author {
+    font-size: 24px;
+}
+
+.aukcje-info div {
+    font-size: 18px;
+    display: inline-block;
+    margin: 15px auto;
+}
+#blocke{
+    text-align: left;
+
+
+
+}
+
+#zaw{
+
+}
+
+#akcept{
+    background-color: #4CAF50; / * Zielony * /
+    border: none;
+    kolor: biały;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>caschflow</title>
+    <link rel="stylesheet" href="/log.css">
+    <link rel="stylesheet" href="/main.css"/>
+        <link rel="stylesheet" href="/commons.css"/>
+    <script src="/casch.js"></script>
+</head>
+<body bgcolor="#a9a9a9">
+
+<img src="/ff.png" alt="Logo" id="logo">
+<div class="content", id="content">
+    <form id="login-form" method="post" onsubmit="return validate()">
+            <c id="ze"  href>Twój wylosowany zawód  </c><br>
+
+        <a href="/Losowanie">Losowanie</a><br>
+                <th:block th:each="zawody : ${zawodys}">
+                    <div class="zawod">
+                        <p th:text=" 'Zawód:  ' + ${zawody.zawod}"</p>
+                    </div>
+                </th:block>
+
+        <a href="/akceptacja" id="nnn">Akceptuj</a>
+    </form>
+
+</div>
+</body>
+</html>
