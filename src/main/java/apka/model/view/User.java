@@ -6,7 +6,6 @@ public class User {
     private int idUser;
     private String name;
 
-
     public User() {
     }
 
@@ -39,4 +38,5 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
 }

@@ -12,17 +12,18 @@
 
 <img src="/ff.png" alt="Logo" id="logo">
 <div class="content", id="content">
-    <form id="login-form" method="post" onsubmit="return validate()">
+    <form id="login-form" method="post" >
             <c id="ze"  href>Twój wylosowany zawód  </c><br>
 
-        <a href="/Losowanie">Losowanie</a><br>
                 <th:block th:each="zawody : ${zawodys}">
                     <div class="zawod">
                         <p th:text=" 'Zawód:  ' + ${zawody.zawod}"</p>
+                        <p th:text=" 'Zarobki:  ' + ${zawody.zarobki}"</p>
                     </div>
                 </th:block>
+        <input type="submit" value="Gramy!!!!!!!">
 
-        <a href="/akceptacja" id="nnn">Akceptuj</a>
+        <a href="/akceptacja" id="nnn">Zaczynamy</a>
     </form>
 
 </div>

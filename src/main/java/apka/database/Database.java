@@ -2,6 +2,8 @@ package apka.database;
 
 import apka.model.Zawody;
 import apka.model.view.User;
+import apka.model.view.Wylosowane;
+import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -12,6 +14,7 @@ import java.util.Random;
 public class Database {
     private List<Zawody> zawodys = new ArrayList<>();
     private List<User> users = new ArrayList<>();
+    private List<Wylosowane> wylosowanes = new ArrayList<>();
 
 
 
@@ -165,6 +168,10 @@ public class Database {
         users.add(new User("user",45876,"łukasz"));
         users.add(new User("admin",45876,"Tomek"));
 
+
+
+        wylosowanes.add((new Wylosowane("mechanik")));
+
     }
 
 
@@ -179,5 +186,17 @@ public class Database {
           return null;
 
     }
+
+
+    public void addUser(User user){
+        this.users.add(user);
+
+    }
+
+    public  void addWylosowane(Wylosowane wylosowane){
+        this.wylosowanes.add(wylosowane);
+    }
+
+
 
 }

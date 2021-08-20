@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ThymeleafVariablesResolveInspection -->
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
@@ -12,13 +13,15 @@
 
 <img src="/ff.png" alt="Logo" id="logo">
 <div class="content", id="content">
-    <form id="login-form" method="post" onsubmit="return validate()">
-        <input type="text" placeholder="Nazwa gracza" th:field="'*{user.user'" id="Nazwagracza-field" name="Nazwagracza">
+    <form id="login-form" method="post">
+        <input type="text" placeholder="Nazwa gracza" th:field="*{user.name}"  id="Nazwagracza-field" name="Nazwagracza">
+        <input type="submit" value="Zatwierdz ">
 
-    </form><a href="/rejestracja" type="submit" >Rejestracja</a>
+    </form></a>
 
 </div>
 </body>
 </html>
 
 
+<!--th:field="*{User}"-->
